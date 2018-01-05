@@ -8,7 +8,8 @@ disableKinds=["RSS"]
 
 [params]
   description = '<!--[-->A labour of love for the ones most important<!--]--><br />
-                <!--[-->With love comes freedom.<!--]-->'
+                <!--[-->With love comes freedom.<!--]-->
+                {{< socialLinks >}}'
   logo = "fa-heart-o"
   copyright = "DJ Roberts Design 2017"
 
