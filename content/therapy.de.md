@@ -1,7 +1,7 @@
 ---
-title: "Training"
+title: "Therapie"
 date: 2018-01-04T14:34:21+01:00
-weight: 2
+weight: 3
 ---
 
 Hello, World!
