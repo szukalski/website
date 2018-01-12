@@ -22,14 +22,19 @@ disableKinds=["RSS"]
   icon = "facebook"
   link = "#"
 
+[[params.social]]
+  medium = "xing"
+  icon = "xing"
+  link = "#"
+
 [languages]
 [languages.en]
 languageName = "English"
-weight = 1
+weight = 2
 
 [languages.de]
 languageName = "Deutsch"
-weight = 2
+weight = 1
 title = "Dimension"
-description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
-                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
+description = '<!--[-->Ich bin ein rotes Traktor!<!--]--><br />
+                <!--[-->Blah blah kaka.<!--]-->'
