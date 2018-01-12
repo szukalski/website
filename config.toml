@@ -1,6 +1,6 @@
 baseurl = "https://thirsty-bohr-49351e.netlify.com"
 title = "Lea Roberts"
-theme = "dimension-szu"
+theme = "dimension"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
