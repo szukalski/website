@@ -1,14 +1,14 @@
 baseurl = "https://thirsty-bohr-49351e.netlify.com"
 title = "Lea Roberts"
-theme = "dimension"
+theme = "dimension-szu"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 disableKinds=["RSS"]
 
 [params]
-  description = '<!--[-->A labour of love for the ones most important<!--]--><br />
-                <!--[-->With love comes freedom.<!--]-->'
+  description = '<!--[-->Qualified psychologist for personal or business.<!--]--><br />
+                <!--[-->Let me unleash the power of Powerade!<!--]-->'
   logo = "fa-heart-o"
   copyright = "DJ Roberts Design 2017"
 
