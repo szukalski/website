@@ -9,7 +9,7 @@ disableKinds=["RSS"]
 [params]
   description = '<!--[-->Qualified psychologist for personal or business.<!--]--><br />
                 <!--[-->Let me unleash the power of Powerade!<!--]-->'
-  logo = "images/logo.png"
+  logoimage = "/images/logo.png"
   copyright = "DJ Roberts Design 2017"
 
 [[params.social]]
