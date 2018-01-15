@@ -6,6 +6,8 @@ defaultContentLanguage = "de"
 enableRobotsTXT = true
 disableKinds=["RSS"]
 
+[blackfriday] hrefTargetBlank = true
+
 [params]
   description = '<!--[-->Qualified psychologist for personal or business.<!--]--><br />
                 <!--[-->Let me unleash the power of Powerade!<!--]-->'
