@@ -13,7 +13,7 @@ disableKinds=["RSS"]
   description = '<!--[-->Qualified psychologist for personal or business.<!--]--><br />
                 <!--[-->Let me unleash the power of Powerade!<!--]-->'
   logoimage = "/images/logo.png"
-  copyright = "Zoo Cow Ski 2018"
+  copyright = "ZooCowSki 2018"
 
 [[params.social]]
   medium = "linkedin"
