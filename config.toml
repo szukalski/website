@@ -2,7 +2,7 @@ baseurl = "https://thirsty-bohr-49351e.netlify.com"
 title = "Lea Roberts Consulting"
 theme = "dimension"
 languageCode = "en-us"
-defaultContentLanguage = "en"
+defaultContentLanguage = "de"
 enableRobotsTXT = true
 disableKinds=["RSS"]
 
@@ -10,22 +10,22 @@ disableKinds=["RSS"]
   description = '<!--[-->Qualified psychologist for personal or business.<!--]--><br />
                 <!--[-->Let me unleash the power of Powerade!<!--]-->'
   logoimage = "/images/logo.png"
-  copyright = "DJ Roberts Design 2017"
+  copyright = "Zoo Cow Ski 2018"
 
 [[params.social]]
   medium = "linkedin"
   icon = "linkedin"
-  link = "#"
+  link = "https://www.linkedin.com/in/lea-roberts-13538063/"
 
 [[params.social]]
   medium = "facebook"
   icon = "facebook"
-  link = "#"
+  link = "https://www.facebook.com/AnnaLeaRoberts"
 
 [[params.social]]
   medium = "xing"
   icon = "xing"
-  link = "#"
+  link = "https://www.xing.com/profile/AnnaLea_Roberts"
 
 [languages]
 [languages.en]
