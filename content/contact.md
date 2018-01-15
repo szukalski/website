@@ -14,6 +14,8 @@ weight: 4
 
   <input type="text" name="_gotcha" style="display:none" />
 
+  <input type="hidden" name="_next" value="https://thirsty-bohr-49351e.netlify.com/#contact" />
+
   <button type="submit">Send</button>
 
 </form>
