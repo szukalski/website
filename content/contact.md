@@ -1,25 +1,42 @@
----
-title: "Contact"
-date: 2018-01-04T14:34:21+01:00
-weight: 4
-hidden = "true"
----
++++
+title = "Formspree"
+weight = 60
+menuname = "Contact"
+draft = true
++++
 
-<meta name="referrer" content="origin">
-
-<form method="POST" action="http://formspree.io/szukalski@gmail.com">
-
-  <input type="email" name="email" placeholder="Your email">
-
-  <textarea name="message" placeholder="Your message"></textarea>
-
-  <input type="text" name="_gotcha" style="display:none" />
-
-  <input type="hidden" name="_next" value="https://thirsty-bohr-49351e.netlify.com/#contact" />
-
-  <button type="submit">Send</button>
-
+<form id="contactform" method="post" action="https://formspree.io/szukalski@gmail.com">
+	<div class="field half first">
+		<input type="text" name="name" id="name" placeholder="Name"/>
+	</div>
+	<div class="field half">
+		<input type="email" id="email" name="email" placeholder="Email">
+	</div>
+	<div class="field">
+		<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+	</div>
+	<ul class="actions">
+		<li><input type="submit" value="Send message" class="special" /></li>
+		<li><input type="reset" value="Reset" /></li>
+	</ul>
+	<input type="hidden" name="_next" value="?sent#formspree" />
+	<input type="hidden" name="_subject" value="Subject for your mail like new message" />
+	<input type="text" name="_gotcha" style="display:none" />
 </form>
+<span id="contactformsent">Thank you for your message</span>
+
+<script>
+$(document).ready(function($) { 
+    $(function(){
+        if (window.location.search == "?sent") {
+        	$('#contactform').hide();
+        	$('#contactformsent').show();
+        } else {
+        	$('#contactformsent').hide();
+        }
+    });
+});
+</script>
+
 
 {{< socialLinks >}}
-
